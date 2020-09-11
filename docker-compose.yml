@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  basedatos:
+    image: mariadb
+    ports:
+      - "3806:3306"
+      environment:
+        - MYSQL_ROOT_PASSWORD=123456
